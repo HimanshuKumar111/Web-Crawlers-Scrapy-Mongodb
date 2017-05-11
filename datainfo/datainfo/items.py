@@ -9,6 +9,12 @@ import scrapy
 
 
 class DatainfoItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+	title = scrapy.Field()
+	url = scrapy.Field()
+	datasets = scrapy.Field()
+	visual_access= scrapy.Field()
+	api = scrapy.Field()
+	last_updated = scrapy.Field()
+	views = scrapy.Field()
+	downloads = scrapy.Field()
+
